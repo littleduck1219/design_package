@@ -1,0 +1,22 @@
+{
+  "name": "themes",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "export": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "npm run clean && npm run build:js && npm run build:type",
+    "build:js": "node build.js",
+    "build:type": "tsc --emitDeclarationOnly"
+  },
+  "devDependencies": {
+    "esbuild": "^0.16.17",
+    "typescript": "^5.3.3"
+  }
+}

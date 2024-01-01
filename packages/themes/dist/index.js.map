@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.ts"],
+  "sourcesContent": ["function sum (a: number, b: number) {\n\treturn a + b;\n};\n\nexport default {\n\tsum\n};\n"],
+  "mappings": "AAAA,SAASA,EAAKC,EAAWC,EAAW,CACnC,OAAOD,EAAIC,CACZ,CAEA,IAAOC,EAAQ,CACd,IAAAH,CACD",
+  "names": ["sum", "a", "b", "src_default"]
+}

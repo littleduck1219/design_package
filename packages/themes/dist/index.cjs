@@ -1,0 +1,2 @@
+"use strict";var t=Object.defineProperty;var b=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var o=Object.prototype.hasOwnProperty;var a=(e,u)=>{for(var r in u)t(e,r,{get:u[r],enumerable:!0})},c=(e,u,r,m)=>{if(u&&typeof u=="object"||typeof u=="function")for(let n of f(u))!o.call(e,n)&&n!==r&&t(e,n,{get:()=>u[n],enumerable:!(m=b(u,n))||m.enumerable});return e};var d=e=>c(t({},"__esModule",{value:!0}),e);var p={};a(p,{default:()=>l});module.exports=d(p);function i(e,u){return e+u}var l={sum:i};
+//# sourceMappingURL=index.cjs.map
